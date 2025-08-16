@@ -9,7 +9,7 @@ if (isNaN(edad) || edad.trim() === "") {
    console.log("La edad ingresada no es un nmero valido.");
 } else {
     edad = Number(edad);
-    if (edad > 18) {
+    if (edad >= 18) {
       console.log(`Tenes ${edad} años, ya podes conducir`)
       } else {
         console.log (`Tenes ${edad} años, no podes conducir`)
