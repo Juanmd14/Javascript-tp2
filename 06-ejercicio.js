@@ -8,8 +8,8 @@
 666666
 ……. */ 
 
-for (let i = 0; i <= 30; i++) {
-    resultado = ""
+for (let i = 1; i <= 30; i++) {
+   let resultado = ""
     for(let j = 0; j < i; j++){  // repite j hasta que alcanze a i
     resultado += i
     }
