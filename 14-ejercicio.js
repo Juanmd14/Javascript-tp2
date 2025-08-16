@@ -6,7 +6,7 @@ let texto = prompt("Ingrese un texto");
 if (texto) {
     let textoConGuion = ""
   for (let i = 0; i < texto.length; i++) {
-    textoConGuion += texto.charAt(i) + "-";
+    textoConGuion += texto.charAt(i)
       if (i < texto.length - 1) { // ejemplo : si agrego h-e-l-a-d-o- la ultima "o-" tendria un guion, esto lo evita
       textoConGuion += "-";
     }
